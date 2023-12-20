@@ -53,7 +53,7 @@ Dado um array de vendedores, cada um representado por um objeto com o nome do ve
 <small>Utilize o seguinte arquivo para o problema: [seller.json](https://gist.github.com/oliveiralex/ad6630b18e6d01a8a22eec29e6e7889b)
 </small>
 
-#### Quadrados de um Array Ordenado
+#### Quadrados de um Array Ordenado ([<small>Leetcode</small>](https://leetcode.com/problems/squares-of-a-sorted-array/))
 
 Dado um array de números inteiros `nums` ordenado em ordem crescente, retorne um array com os quadrados de cada número, também ordenado de forma crescente.
 
@@ -72,7 +72,7 @@ Dado um array de números inteiros `nums` ordenado em ordem crescente, retorne u
     saída: [4,9,9,49,121]
     ```
 
-#### Duplicar zeros
+#### Duplicar zeros ([<small>Leetcode</small>](https://leetcode.com/problems/duplicate-zeros/))
 
 Dado um array de inteiros `arr`, duplique cada ocorrência de zero, deslocando os elementos restantes para a direita (*shifting right*).
 
