@@ -53,3 +53,43 @@ Dado um array de vendedores, cada um representado por um objeto com o nome do ve
 <small>Utilize o seguinte arquivo para o problema: [seller.json](https://gist.github.com/oliveiralex/ad6630b18e6d01a8a22eec29e6e7889b)
 </small>
 
+#### Quadrados de um Array Ordenado
+
+Dado um array de números inteiros `nums` ordenado em ordem crescente, retorne um array com os quadrados de cada número, também ordenado de forma crescente.
+
+* Exemplo 1:
+
+    ```bash
+    entrada: nums = [-4,-1,0,3,10]
+    saída: [0,1,9,16,100]
+    ```
+    <small>**Explicação:** Após elevar ao quadrado, temos como resultado o array [16, 1, 0, 9, 100]. Em seguida, após ordenar os valores do array, temos [0, 1, 9, 16, 100].</small>
+
+* Exemplo 2:
+
+    ```bash
+    entrada: nums = [-7,-3,2,3,11]
+    saída: [4,9,9,49,121]
+    ```
+
+#### Duplicar zeros
+
+Dado um array de inteiros `arr`, duplique cada ocorrência de zero, deslocando os elementos restantes para a direita (*shifting right*).
+
+Observe que elementos além do tamanho do array original não são escritos.
+
+Utilize a abordagem "In-place" na qual a modificação é feita diretamente no array.
+
+* Exemplo 1:
+
+    ```bash
+    entrada: nums = [1,0,2,3,0,4,5,0]
+    saída: [1,0,0,2,3,0,0,4]
+    ```
+
+* Exemplo 2:
+
+    ```bash
+    entrada: nums = [1,2,3]
+    saída: [1,2,3]
+    ```
