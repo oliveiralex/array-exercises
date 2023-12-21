@@ -150,6 +150,33 @@ Utilize a abordagem *in-place*, na qual a modificação é feita no próprio arr
     saída: [0,1,3,0,4]
     ```
 
+#### Contém valores duplicados ([<small>Leetcode</small>](https://leetcode.com/problems/contains-duplicate/))
+
+Dado um array `nums`, retorne `true`
+
+Dado um array de números inteiros `nums`, retorne `true` se houver valores repetidos ou `false` se não houver repetição de valores no array.
+
+* Exemplo 1:
+
+    ```bash
+    entrada: nums = [1,2,3,1]
+    saída: true
+    ```
+
+* Exemplo 2:
+
+    ```bash
+    entrada: nums = [1,2,3,4]
+    saída: false
+    ```
+
+* Exemplo 3:
+
+    ```bash
+    entrada: nums = [1,1,1,3,3,4,3,2,4,2]
+    saída: true
+    ```
+
 
 
 
