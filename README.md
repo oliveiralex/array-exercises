@@ -152,8 +152,6 @@ Utilize a abordagem *in-place*, na qual a modificação é feita no próprio arr
 
 #### Contém valores duplicados ([<small>Leetcode</small>](https://leetcode.com/problems/contains-duplicate/))
 
-Dado um array `nums`, retorne `true`
-
 Dado um array de números inteiros `nums`, retorne `true` se houver valores repetidos ou `false` se não houver repetição de valores no array.
 
 * Exemplo 1:
