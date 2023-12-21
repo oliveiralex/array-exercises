@@ -93,3 +93,66 @@ Utilize a abordagem "In-place" na qual a modificação é feita diretamente no a
     entrada: nums = [1,2,3]
     saída: [1,2,3]
     ```
+
+#### Merge arrays ([<small>Leetcode</small>](https://leetcode.com/problems/merge-sorted-array/))
+
+Dado dois arrays de números inteiros `nums1` e `nums2`, ordenados em ordem crescente, sendo `m` e `n` seus tamanhos, respectivamente.
+
+Junte os arrays `nums1` e `nums2` em um único array ordenado de forma crescente.
+
+O array final ordenado não deve ser retornado pela função, mas sim armazenado dentro do array `nums1`. Para acomodar os elementos, `nums1` possui um comprimento de `m + n`.
+
+* Exemplo 1:
+
+    ```bash
+    entrada: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+    saída: [1,2,2,3,5,6]
+    ```
+    <small>**Explicação:** Os arrays que queremos juntar são [1,2,3] e [2,5,6]. O resultado ao fazer o merge é [1,2,2,3,5,6]</small>
+
+* Exemplo 2:
+
+    ```bash
+    entrada: nums1 = [1], m = 1, nums2 = [], n = 0
+    saída: [1]
+    ```
+    <small>**Explicação:** Os arrays que queremos juntar são [1] e []. O resultado ao fazer o merge é [1]</small>
+
+* Exemplo 3:
+
+    ```bash
+    entrada: nums1 = [0], m = 0, nums2 = [1], n = 1
+    saída: [1]
+    ```
+    <small>**Explicação:** Os arrays que queremos juntar são [] e [1]. O resultado ao fazer o merge é [1]</small>
+
+#### Remover elementos ([<small>Adaptado leetcode</small>](https://leetcode.com/problems/remove-element/))
+
+Dado um array de números inteiros `nums` e um inteiro `val`, remova todas as ocorrências de `val` em `nums`. Em seguida, retorne o array.
+
+O array resultante deve ter o seu tamanho reduzido de acordo com o número de elementos removidos.
+
+Utilize a abordagem *in-place*, na qual a modificação é feita no próprio array.
+
+* Exemplo 1:
+
+    ```bash
+    entrada: nums = [3,2,2,3,4,2,7,9], val = 2
+    saída: [3,3,4,7,9]
+    ```
+
+    <small>**Explicação:** Dado o array `nums` [3,2,2,3,4,2,7,9] de tamanho 8 e o `val` igual a 2, queremos remover todas as ocorrências de `val` em `nums`. Desta forma, teremos o array resultante [3,3,4,7,9] de tamanho 5.</small>
+
+* Exemplo 2:
+
+    ```bash
+    entrada: nums = [0,1,2,2,3,0,4,2], val = 2
+    saída: [0,1,3,0,4]
+    ```
+
+
+
+
+
+
+
