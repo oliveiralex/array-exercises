@@ -66,6 +66,17 @@ Dado um array nums de inteiros, retorne quantos deles contêm um número par de 
     <br> Portanto, apenas 12 e 7896 contêm um número par de dígitos.
     </small>
 
+* Exemplo 2:
+
+    ```bash
+    entrada: nums = [555,901,482,1771]
+    saída: 1
+    ```
+
+    <small>**Explicação:**
+    <br> Apenas o número 1771 tem um número par de dígitos.
+    </small>
+
 #### Encontrar vendedor com maior valor de venda ([<small>arquivo json</small>](https://gist.github.com/oliveiralex/ad6630b18e6d01a8a22eec29e6e7889b))
 
 Dado um array de vendedores, cada um representado por um objeto com o nome do vendedor `name` e o valor de suas vendas `amount`, crie uma função para encontrar e retornar o vendedor que obteve o maior valor de venda.
