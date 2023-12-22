@@ -46,6 +46,26 @@ Dados dois arrays, calcule o seu produto escalar.
     saída: 0
     ```
 
+#### Encontre Números com Número Par de Dígitos ([<small>Leetcode</small>](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/))
+
+Dado um array nums de inteiros, retorne quantos deles contêm um número par de dígitos.
+
+* Exemplo 1:
+
+    ```bash
+    entrada: nums = [12,345,2,6,7896]
+    saída: 2
+    ```
+
+    <small>**Explicação:**
+    <br> **12** contém 2 dígitos (número par de dígitos).
+    <br> **345** contém 3 dígitos (número ímpar de dígitos).
+    <br> **2** contém 1 dígito (número ímpar de dígitos).
+    <br> **6** contém 1 dígito (número ímpar de dígitos).
+    <br> **7896** contém 4 dígitos (número par de dígitos).
+    <br> Portanto, apenas 12 e 7896 contêm um número par de dígitos.
+    </small>
+
 #### Encontrar vendedor com maior valor de venda ([<small>arquivo json</small>](https://gist.github.com/oliveiralex/ad6630b18e6d01a8a22eec29e6e7889b))
 
 Dado um array de vendedores, cada um representado por um objeto com o nome do vendedor `name` e o valor de suas vendas `amount`, crie uma função para encontrar e retornar o vendedor que obteve o maior valor de venda.
